@@ -1,0 +1,30 @@
+# Ignore weights
+weights/*.pth
+weights/*.pt
+weights/clip_l14_336_grit_20m_4xe.pth
+
+# Ignore outputs and predictions
+outputs/
+Ref_YTVOS_val/
+MeViS_val/
+YTVOS_combined/
+MeViS_combined/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Zip files
+*.zip
+*.tar.gz
+*.tgz
+
+# OS files
+.DS_Store
+Thumbs.db
